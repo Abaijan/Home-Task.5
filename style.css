@@ -1,0 +1,56 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+    position: relative;
+
+}
+.our_products{
+    position:absolute;
+    height:1254px ;
+    width: 1236px;
+    left:60px;
+    border-radius: 0px;
+  flex-wrap: wrap;
+    position:relative;
+    align-content: space-between;
+    display: flex;
+  align-content: center;
+
+}
+.h1{
+    position: absolute;
+    left: 500px;
+    top:50px;
+    font-family: 'Roboto';
+    font-weight:700;
+}
+.card{
+ line-height: 40px;
+  margin:12px;
+}
+.card__subtitle{
+    opacity: 0.5;
+    font-family: 'Roboto';
+    font-weight:300;
+}
+.card__ttle{
+    font-family: 'Roboto';
+    font-weight:500;
+}
+.card__price{
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+.btn{
+    width: 120px;
+    height: 30px;
+    border-radius: 10px;
+    border:1px;
+  
+}
